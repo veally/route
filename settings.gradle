@@ -1,1 +1,1 @@
-include ':app', ':Ipay', ':cashpay', ':alipay', ':payview'
+include ':app', ':ipay',':paybridge', ':cashpay', ':alipay'

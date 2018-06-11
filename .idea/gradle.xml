@@ -8,11 +8,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Ipay" />
             <option value="$PROJECT_DIR$/alipay" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/cashpay" />
-            <option value="$PROJECT_DIR$/payview" />
+            <option value="$PROJECT_DIR$/ipay" />
+            <option value="$PROJECT_DIR$/paybridge" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
