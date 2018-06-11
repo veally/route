@@ -1,0 +1,1 @@
+include ':app', ':Ipay', ':cashpay', ':alipay', ':payview'
