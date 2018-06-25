@@ -13,8 +13,8 @@ public class MyApplication extends Application
     @Override
     public void onCreate() {
         super.onCreate();
-        ARouter.init(this);
         ARouter.openLog();
         ARouter.openDebug();
+        ARouter.init(this);
     }
 }

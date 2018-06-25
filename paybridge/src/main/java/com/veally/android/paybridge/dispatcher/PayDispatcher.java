@@ -14,7 +14,7 @@ public class PayDispatcher implements IPayDispatcher {
     IPayExecutor mPayExcuter;
     @Override
     public void pay(@IPayType int payType) {
-        Log.i("routepay", " >>>>>>>>> dispatch pay <<<<<<<<<");
+//        Log.i("routepay", " >>>>>>>>> dispatch pay <<<<<<<<<");
         switch (payType) {
             case IPayType.CASHPAY:
                 mPayExcuter = (IPayExecutor) ARouter.getInstance().build(PayRouteDefine.CASHPAY).navigation();
