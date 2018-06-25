@@ -19,6 +19,6 @@ public class AlipayExecutor implements IPayExecutor {
 
     @Override
     public void init(Context context) {
-        Log.i("pay", "初始化支付容器");
+
     }
 }
