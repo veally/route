@@ -14,7 +14,9 @@ public class PayDispatcher implements IPayDispatcher {
     IPayExecutor mPayExcuter;
     @Override
     public void pay(@IPayType int payType) {
+        //fix something from previous commit"
         //fix security hole
+        //start developing a feature
         //hotfix
         //new-feature
         //分派支付任务执行器
