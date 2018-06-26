@@ -14,6 +14,7 @@ public class PayDispatcher implements IPayDispatcher {
     IPayExecutor mPayExcuter;
     @Override
     public void pay(@IPayType int payType) {
+        //hotfix
         //分派支付任务执行器
 //        Log.i("routepay", " >>>>>>>>> dispatch pay <<<<<<<<<");
         switch (payType) {
