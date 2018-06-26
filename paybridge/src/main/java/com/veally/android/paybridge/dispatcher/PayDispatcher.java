@@ -15,6 +15,7 @@ public class PayDispatcher implements IPayDispatcher {
     @Override
     public void pay(@IPayType int payType) {
         //hotfix
+        //new-feature
         //分派支付任务执行器
 //        Log.i("routepay", " >>>>>>>>> dispatch pay <<<<<<<<<");
         switch (payType) {
