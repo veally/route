@@ -1,5 +1,9 @@
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.veally'
+version="1.1.0"
+
 android {
     compileSdkVersion 27
 
